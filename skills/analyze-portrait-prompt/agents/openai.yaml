@@ -1,0 +1,4 @@
+interface:
+  display_name: '人像复现提示词分析'
+  short_description: '提取细致的人像维度提示词，并按固定顺序拼接完整提示词'
+  default_prompt: '使用 $analyze-portrait-prompt 分析我上传的人像照片，输出各维度细分提示词和拼接后的完整提示词。'

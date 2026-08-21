@@ -1,0 +1,4 @@
+interface:
+  display_name: "提取图片文字色卡"
+  short_description: "使用 Python Pillow 提取图片主色与占比，直接返回 HEX 和 RGB 文字色卡"
+  default_prompt: "使用 $extract-image-color-palette 通过 Python Pillow 提取这张图片的主色，并用文字列出 HEX、RGB 和占比。"

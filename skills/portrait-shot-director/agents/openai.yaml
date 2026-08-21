@@ -1,0 +1,4 @@
+interface:
+  display_name: "人像镜头导演"
+  short_description: "统一组织人像图像生成与编辑任务所需的工具、执行流程、视觉参考和可复用资源"
+  default_prompt: "使用 $portrait-shot-director 规划并执行这次人像生成任务。"

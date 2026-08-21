@@ -1,0 +1,4 @@
+interface:
+  display_name: "生成人物白模动作线稿"
+  short_description: "单图生成真实或修长极简的白模动作轮廓，保留姿势与手部结构"
+  default_prompt: "使用 $generate-pose-mannequin-lineart 将这张人物参考图一次转换为纯黑线白底的修长极简白模动作稿。"

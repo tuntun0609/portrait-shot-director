@@ -1,0 +1,4 @@
+interface:
+  display_name: "人物灰度深度轮廓图"
+  short_description: "把人物照片转换为隐藏细节、保留轮廓的灰度相对深度图"
+  default_prompt: "使用 $depth-preserving-portrait-blur 将这张人物图片转换为近白远黑的灰度相对深度图，隐藏五官与纹理，保留人物、发型及场景轮廓。"
