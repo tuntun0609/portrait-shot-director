@@ -14,6 +14,14 @@ npx skills add tuntun0609/portrait-shot-director
 npx skills add tuntun0609/portrait-shot-director --skill analyze-portrait-prompt
 ```
 
+本地开发时，可将仓库内的全部 skill 软链接到 `.agents/skills`：
+
+```bash
+bun run link-agent-skills
+```
+
+如果目标位置已存在同名文件、目录或软链接，脚本会直接跳过，不会覆盖。
+
 ## 技能列表
 
 ### 1. analyze-portrait-prompt
@@ -33,4 +41,3 @@ npx skills add tuntun0609/portrait-shot-director --skill analyze-portrait-prompt
 
 ### 6. portrait-shot-director
 为人像图像生成与编辑任务提供统一入口，按需组织工具、执行流程和视觉参考。不可以单独使用
-

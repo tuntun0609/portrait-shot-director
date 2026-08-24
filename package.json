@@ -1,0 +1,11 @@
+{
+  "name": "portrait-shot-director",
+  "private": true,
+  "scripts": {
+    "link-agent-skills": "bun run ./scripts/link-agent-skills.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.0",
+    "typescript": "5"
+  }
+}
